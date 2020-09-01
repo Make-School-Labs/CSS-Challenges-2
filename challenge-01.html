@@ -9,15 +9,15 @@
       typography for the entire page. */
       body {
         /* Set the font family to a San Serif */
-        
+        font-family: 'Geneva';
         /* Set the base font size 18px */
-        
+        font-size: 18px;
         /* Set the line-height 1.5 */
-        
+        line-height: 1.5;
         /* Set the foreground color #000 */
-        
+        color: #000;
         /* Set the background color rgb(80, 134, 236) */
-        
+        background-color: rgb(80,134,236);
       }
 
 
@@ -26,43 +26,45 @@
       child of the nav */
       nav > ul {
         /* remove the bullet */
-        
+        list-style: none;
         /* remove the padding 0 */
-        
+        padding: 0;
         /* Arrange all of the items in a row with flex */
         /* Flex arranges all of the children! */
         /* Use display: flex */
         /* display: flex; */
-        
+        display: flex;
         /* This arranges all of the nav > ul > li tags in a row */
         /* The default arrangement is row */
         /* Try these two */
         /* flex-direction: row; */
         /* flex-direction: column; */
+        flex-direction: row;
+        flex-direction: column;
       }
 
 
       /* Now style all of the links inside nav */
       nav a {
         /* Remove the underline text-decoration: none; */
-        
+        text-decoration: none;
         /* set a background color #000 */
-        
+        background-color: #000;
         /* Set the color of the text #fff */
-        
+        color: #fff;
         /* add some space around the boxes margin: 1px */
-        
+        margin: 1px;
         /* add some space between the content and the edge of the boxes */
         /* The first number is the padding on the top and bottom. */
         /* The second number is padding on the left and right. */
         /* padding: 0.5rem 1rem; */
-        
+        padding: 0.5rem 1rem;
         /* Make these elements display as a block */
         /* display: block; */
-
+        display:block;
         /* Round the corners */
         /* border-radius: 0.5rem; */
-
+        border-radius: 0.5 rem;
       }
 
 
@@ -73,27 +75,27 @@
       /* Select the ul that is the descendant of a section */
       section ul {
         /* Display flex display: flex */
-        
+        display: flex;
         /* Flex direction row flex-direction: row */
-        
+        flex-direction: row;
         /* Arrange things in the center on the MAIN axis */
         /* justify-content: center; */
-        
+        justify-content: center;
         /* Align things on the CROSS axis */
         /* Look closely at the Popular Picks and Featured Tablets sections */
         /* align-items: flex-end; */
-
+        align-items: flex-end;
         /* Remove the bullet points */
-        
+        text-decoration: none;
         /* Remove padding 0 */
-        
+        padding: 0;
       }
 
       /* Style the li tags that are children of ul tags that are childrem of sections */
       /* No really that's what this sector is saying! */
       section > ul > li {
         /* Add some margin: 1rem */
-        
+        margin: 1rem;
         /* A rem is a root em it's the same as the font size set on the body */
         /* In this example you used 18px as the font-size set on the body */
         /* so 1rem here is equal to 18px */
@@ -106,19 +108,20 @@
       button {
         /* Set the font-size to the base font size set in the body. */
         /* font-size: 1rem; */
-
+        font-size: 1rem;
         /* Color #fff */
-        
+        color: #fff;
         /* Remove the border */
         /* border: none; */
-        
+        border: none;
         /* Background color rgb(19, 48, 64) */
-        
+        background-color: rgb(19,48,64);
         /* Padding top and bottom of 1rem left and right of 1.5rem */
         /* padding: 1rem 1.5rem; */
-
+        padding: 1rem 1.5rem;
         /* Round the corners */
         /* border-radius: 100px; */
+        border-radius: 100px;
       }
 
 
@@ -127,21 +130,21 @@
       /* Let's style all of the child sections but only the odd numbers */
       section > section:nth-child(odd) {
         /* basckground color #fff */
-        
+        background-color: #fff;
       }
 
 
       /* Style all child sections */
       section > section {
         /* These sections need some padding 2rem */
-        
+        padding: 2rem;
       }
 
 
       /* make all the h2 tags really big */
       h2 {
         /* font size 4rem */
-        
+        font-size: 4rem;
       }
 
       /* headings, paragraphs and other tags have a default 
@@ -149,6 +152,7 @@
       h1, h2, h3, h4, p {
         /* Set the margin only on the bottom */
         /* margin: 0 0 1rem 0; */
+        margin: 0 0 1rem 0;
       }
       
     </style>
