@@ -28,9 +28,11 @@ ul {
 }
 ```
 
-You apply Flex to the parent and it arranges the children. 
+You apply Flex to the parent and it arranges the children. In the example above, applying flex to the ul would arrange the child li tags! 
 
-Play with the challenege then review the links below for information and explore the features of flex box.
+_The challenge code will walk you through how to apply flex. Be sure to watch for changes to the web page in the browser as you edit the CSS._
+
+Play with the challeneges then review the links below for information and explore the features of flex box.
 
 - https://www.smashingmagazine.com/2018/08/flexbox-display-flex-container/
 - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
